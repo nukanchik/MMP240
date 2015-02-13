@@ -1,9 +1,18 @@
-h1 {text-align: center;}
-div {
-    border:1px solid rgba(0,0,0,0.1);
-    background: #fff;
-    text-align:center;
+*{background-color: black;}
+
+
+.container-fluid {
+    background: black;
+    height: 100vh;
+    background-attachment: fixed;
+    z-index: -100;
 }
-.container-fluid, .container, .row{
-    background: #525252;
+
+h1 {
+    text-align: center;
+    color: #fff;
 }
+.row {text-align: center;
+color: #fff;
+font-size: 2em}
+
